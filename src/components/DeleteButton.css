@@ -1,0 +1,15 @@
+.delete-button {
+  background-color: #ff5a5a;
+  height: 100%;
+  display: none;
+  width: 2rem;
+}
+
+.todo-line {
+  cursor: default;
+}
+
+.todo-line:hover .delete-button {
+  display: block;
+  cursor: pointer;
+}

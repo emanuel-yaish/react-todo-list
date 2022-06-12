@@ -1,0 +1,38 @@
+.todo-list {
+  border: 2px solid #c7e2c4;
+}
+
+.todo-list-title {
+  display: flex;
+  background-color: #2981bc;
+  align-items: baseline;
+  padding: 1rem 0.5rem;
+  justify-content: space-between;
+}
+
+.todo-list-input {
+  border: 2px solid #2981bc;
+  display: flex;
+}
+.todo-list-input input {
+  border: none;
+  outline: none;
+  height: 4vh;
+  padding: 1vh;
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-list-input input::placeholder {
+  font-size: 1.2rem;
+}
+
+.todo-line {
+  display: flex;
+  align-items: center;
+}
+
+.todo-line:nth-child(even) {
+  background-color: #f7f7f7;
+}

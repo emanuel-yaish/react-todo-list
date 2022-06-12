@@ -1,0 +1,12 @@
+.add-todo {
+  background-color: #2981bc;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+  border: none;
+}
+
+.add-todo:hover {
+  color: #ffffff;
+}
